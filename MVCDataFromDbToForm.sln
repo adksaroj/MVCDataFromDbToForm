@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataLibrary", "DataLibrary\
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "MVCDemoDB", "MVCDemoDB\MVCDemoDB.sqlproj", "{48B0E50C-7A0F-4DEF-980A-41BFF46A49A0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCAuthenticationDemo", "MVCAuthenticationDemo\MVCAuthenticationDemo.csproj", "{A27BB442-775C-495A-A9D4-C82E3FD2384E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{48B0E50C-7A0F-4DEF-980A-41BFF46A49A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48B0E50C-7A0F-4DEF-980A-41BFF46A49A0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{48B0E50C-7A0F-4DEF-980A-41BFF46A49A0}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A27BB442-775C-495A-A9D4-C82E3FD2384E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A27BB442-775C-495A-A9D4-C82E3FD2384E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A27BB442-775C-495A-A9D4-C82E3FD2384E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A27BB442-775C-495A-A9D4-C82E3FD2384E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
