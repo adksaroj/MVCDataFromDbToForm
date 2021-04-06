@@ -6,6 +6,7 @@ using System.Web.Mvc;
 
 namespace MVCAuthenticationDemo.Controllers
 {
+    [Authorize]
     public class HomeController : Controller
     {
         public ActionResult Index()
@@ -13,6 +14,7 @@ namespace MVCAuthenticationDemo.Controllers
             return View();
         }
 
+        [Authorize(Roles = "user, admin")]
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
@@ -20,6 +22,7 @@ namespace MVCAuthenticationDemo.Controllers
             return View();
         }
 
+        [Authorize(Roles = "admin")]
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
